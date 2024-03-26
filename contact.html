@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,8 +14,10 @@
             margin: 20px auto;
             max-width: 500px;
         }
-
-        input[type="text"], input[type="email"], textarea {
+        
+        input[type="text"],
+        input[type="email"],
+        textarea {
             width: 100%;
             padding: 12px;
             margin: 8px 0;
@@ -23,7 +26,7 @@
             border-radius: 4px;
             box-sizing: border-box;
         }
-
+        
         input[type="submit"] {
             width: 100%;
             background-color: #4CAF50;
@@ -34,20 +37,21 @@
             border-radius: 4px;
             cursor: pointer;
         }
-
+        
         input[type="submit"]:hover {
             background-color: #45a049;
         }
-
+        
         label {
             margin-top: 10px;
         }
     </style>
 </head>
+
 <body>
     <h1>Contact Us</h1>
     <div class="contact-form">
-        <form action="submit_contact_info.php" method="post">
+        <form action="https://formspree.io/f/mayrpyre" method="post">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
@@ -61,4 +65,5 @@
         </form>
     </div>
 </body>
+
 </html>
